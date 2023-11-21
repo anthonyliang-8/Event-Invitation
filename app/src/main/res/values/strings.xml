@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">event-invitation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome_msg">Welcome to Invite Maker</string>
+    <string name="new_inv_btn_txt">New Invite</string>
+
+    <string name="icon_temp_title">Temp Title</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
