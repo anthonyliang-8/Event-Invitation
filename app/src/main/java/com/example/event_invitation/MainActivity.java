@@ -11,16 +11,23 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
+import com.example.event_invitation.databinding.FragmentWelcomeBinding;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import com.example.event_invitation.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
+    public ActivityMainBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        View view = binding.getRoot();
+        setContentView(view);
 
         // create top toolbar
         MaterialToolbar materialToolbar = findViewById(R.id.toolbar);
@@ -32,13 +39,13 @@ public class MainActivity extends AppCompatActivity {
 
         //create an “AppBarConfiguration” object
         AppBarConfiguration.Builder builder = new AppBarConfiguration.Builder(navController.getGraph());
-
+        builder.setOpenableLayout(binding.drawerLayout);
         // build
         AppBarConfiguration appBarConfiguration = builder.build();
 
+        NavigationUI.setupWithNavController(binding.navView, navController);
         // create bottom navbar
-        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_nav);
-        NavigationUI.setupWithNavController(bottomNavigationView, navController);
+        NavigationUI.setupWithNavController(binding.bottomNav, navController);
 
         //link “AppBarConfiguration” to the toolbar
         NavigationUI.setupWithNavController(materialToolbar, navController,appBarConfiguration);
