@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.event_invitation.WelcomeFragment"
+        android:label="fragment_invite"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_inviteFragment"
+            app:destination="@id/inviteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inviteFragment"
+        android:name="com.example.event_invitation.InviteFragment"
+        android:label="fragment_invite"
+        tools:layout="@layout/fragment_invite" >
+        <action
+            android:id="@+id/action_inviteFragment_to_layoutFragment"
+            app:destination="@id/layoutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/layoutFragment"
+        android:name="com.example.event_invitation.LayoutFragment"
+        android:label="fragment_layout"
+        tools:layout="@layout/fragment_layout" >
+        <argument
+            android:name="event_name"
+            app:argType="string" />
+        <argument
+            android:name="descript"
+            app:argType="string" />
+        <argument
+            android:name="address"
+            app:argType="string" />
+        <argument
+            android:name="year"
+            app:argType="string" />
+        <argument
+            android:name="month"
+            app:argType="string" />
+        <argument
+            android:name="day"
+            app:argType="string" />
+        <argument
+            android:name="start"
+            app:argType="string" />
+        <argument
+            android:name="end"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.example.event_invitation.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.event_invitation.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/layoutOp1"
+        android:name="com.example.event_invitation.layoutOp1"
+        android:label="fragment_layout_op1"
+        tools:layout="@layout/fragment_layout_op1" />
+</navigation>
