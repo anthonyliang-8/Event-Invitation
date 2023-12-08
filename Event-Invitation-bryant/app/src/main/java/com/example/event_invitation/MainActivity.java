@@ -57,6 +57,9 @@ public class MainActivity extends AppCompatActivity {
         // create bottom navbar
         NavigationUI.setupWithNavController(binding.bottomNav, navController);
 
+        // returns to home on click
+        binding.bottomNav.setOnItemReselectedListener(item -> navController.popBackStack(R.id.welcomeFragment, false));
+
         //link “AppBarConfiguration” to the toolbar
         NavigationUI.setupWithNavController(materialToolbar, navController,appBarConfiguration);
     }
