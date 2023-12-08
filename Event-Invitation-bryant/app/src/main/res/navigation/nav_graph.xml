@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/welcomeFragment"
         android:name="com.example.event_invitation.WelcomeFragment"
-        android:label="fragment_invite"
+        android:label="@string/welcomeLabel"
         tools:layout="@layout/fragment_welcome" >
         <action
             android:id="@+id/action_welcomeFragment_to_inviteFragment"
@@ -17,16 +17,19 @@
     <fragment
         android:id="@+id/inviteFragment"
         android:name="com.example.event_invitation.InviteFragment"
-        android:label="fragment_invite"
+        android:label="@string/inviteLabel"
         tools:layout="@layout/fragment_invite" >
         <action
             android:id="@+id/action_inviteFragment_to_layoutFragment"
             app:destination="@id/layoutFragment" />
+        <action
+            android:id="@+id/action_inviteFragment_to_selectorFragment"
+            app:destination="@id/selectorFragment" />
     </fragment>
     <fragment
         android:id="@+id/layoutFragment"
         android:name="com.example.event_invitation.LayoutFragment"
-        android:label="fragment_layout"
+        android:label="Invited!"
         tools:layout="@layout/fragment_layout" >
         <argument
             android:name="event_name"
@@ -52,20 +55,188 @@
         <argument
             android:name="end"
             app:argType="string" />
+        <argument
+            android:name="picture"
+            app:argType="integer" />
+        <argument
+            android:name="song"
+            app:argType="integer" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
     </fragment>
     <fragment
         android:id="@+id/helpFragment"
         android:name="com.example.event_invitation.HelpFragment"
-        android:label="fragment_help"
+        android:label="@string/helpLabel"
         tools:layout="@layout/fragment_help" />
     <fragment
         android:id="@+id/calendarFragment"
         android:name="com.example.event_invitation.CalendarFragment"
-        android:label="fragment_calendar"
+        android:label="@string/calendarLabel"
         tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/selectorFragment"
+        android:name="com.example.event_invitation.selectorFragment"
+        android:label="fragment_selector"
+        tools:layout="@layout/fragment_selector" >
+        <action
+            android:id="@+id/action_selectorFragment_to_layoutFragment"
+            app:destination="@id/layoutFragment" />
+        <action
+            android:id="@+id/action_selectorFragment_to_layoutOp3"
+            app:destination="@id/layoutOp3" />
+        <action
+            android:id="@+id/action_selectorFragment_to_layoutOp2"
+            app:destination="@id/layoutOp2" />
+        <action
+            android:id="@+id/action_selectorFragment_to_layoutOp1"
+            app:destination="@id/layoutOp1" />
+        <argument
+            android:name="event_name"
+            app:argType="string" />
+        <argument
+            android:name="descript"
+            app:argType="string" />
+        <argument
+            android:name="address"
+            app:argType="string" />
+        <argument
+            android:name="year"
+            app:argType="string" />
+        <argument
+            android:name="month"
+            app:argType="string" />
+        <argument
+            android:name="day"
+            app:argType="string" />
+        <argument
+            android:name="start"
+            app:argType="string" />
+        <argument android:name="end"
+            app:argType="string" />
+        <argument
+            android:name="picture"
+            app:argType="integer" />
+        <argument
+            android:name="song"
+            app:argType="integer" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
     <fragment
         android:id="@+id/layoutOp1"
         android:name="com.example.event_invitation.layoutOp1"
         android:label="fragment_layout_op1"
-        tools:layout="@layout/fragment_layout_op1" />
+        tools:layout="@layout/fragment_layout_op1" >
+        <argument
+            android:name="event_name"
+            app:argType="string" />
+        <argument
+            android:name="descript"
+            app:argType="string" />
+        <argument
+            android:name="address"
+            app:argType="string" />
+        <argument
+            android:name="year"
+            app:argType="string" />
+        <argument
+            android:name="month"
+            app:argType="string" />
+        <argument
+            android:name="day"
+            app:argType="string" />
+        <argument android:name="start"
+            app:argType="string" />
+        <argument
+            android:name="end"
+            app:argType="string" />
+        <argument
+            android:name="picture"
+            app:argType="integer" />
+        <argument
+            android:name="song"
+            app:argType="integer" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/layoutOp2"
+        android:name="com.example.event_invitation.layoutOp2"
+        android:label="fragment_layout_op2"
+        tools:layout="@layout/fragment_layout_op2" >
+        <argument
+            android:name="event_name"
+            app:argType="string" />
+        <argument android:name="descript"
+            app:argType="string" />
+        <argument
+            android:name="address"
+            app:argType="string" />
+        <argument
+            android:name="year"
+            app:argType="string" />
+        <argument
+            android:name="month"
+            app:argType="string" />
+        <argument android:name="day"
+            app:argType="string" />
+        <argument
+            android:name="start"
+            app:argType="string" />
+        <argument
+            android:name="end"
+            app:argType="string" />
+        <argument
+            android:name="picture"
+            app:argType="integer" />
+        <argument
+            android:name="song"
+            app:argType="integer" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/layoutOp3"
+        android:name="com.example.event_invitation.layoutOp3"
+        android:label="fragment_layout_op3"
+        tools:layout="@layout/fragment_layout_op3" >
+        <argument
+            android:name="event_name"
+            app:argType="string" />
+        <argument
+            android:name="descript"
+            app:argType="string" />
+        <argument
+            android:name="address"
+            app:argType="string" />
+        <argument
+            android:name="year"
+            app:argType="string" />
+        <argument
+            android:name="month"
+            app:argType="string" />
+        <argument
+            android:name="day"
+            app:argType="string" />
+        <argument
+            android:name="start"
+            app:argType="string" />
+        <argument
+            android:name="end"
+            app:argType="string" />
+        <argument
+            android:name="picture"
+            app:argType="integer" />
+        <argument
+            android:name="song"
+            app:argType="integer" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
 </navigation>

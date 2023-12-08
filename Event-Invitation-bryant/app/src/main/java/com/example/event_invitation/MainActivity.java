@@ -1,6 +1,8 @@
 package com.example.event_invitation;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.fragment.NavHostFragment;
@@ -8,6 +10,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -32,14 +35,21 @@ public class MainActivity extends AppCompatActivity {
         // create top toolbar
         MaterialToolbar materialToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(materialToolbar);
-        materialToolbar.setBackgroundColor(Color.parseColor("#ADD8E6"));
+        materialToolbar.setBackgroundColor(Color.parseColor("#3c6e71"));
+
+        // change toolbar font
+        materialToolbar.setTitleTextAppearance(this, R.style.OpenSansTextApperanceReg);
+
+        // change toolbar background color
+        int titleTextColor = ContextCompat.getColor(this, R.color.white);
+        materialToolbar.setTitleTextColor(titleTextColor);
 
         NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment);
         NavController navController = navHostFragment.getNavController();
 
         //create an “AppBarConfiguration” object
         AppBarConfiguration.Builder builder = new AppBarConfiguration.Builder(navController.getGraph());
-        builder.setOpenableLayout(binding.drawerLayout);
+        //builder.setOpenableLayout(binding.drawerLayout);
         // build
         AppBarConfiguration appBarConfiguration = builder.build();
 

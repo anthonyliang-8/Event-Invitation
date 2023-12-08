@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.media.MediaPlayer;
 
 import com.example.event_invitation.databinding.FragmentInviteBinding;
 import com.example.event_invitation.databinding.FragmentLayoutBinding;
@@ -41,7 +42,7 @@ public class LayoutFragment extends Fragment {
         TextView addressView = binding.addressView;
         TextView timeView = binding.timeView;
         Button calButton = binding.calButton;
-        Log.d("Debug", "even name:"+eventViewModel.eventName.getValue());
+    //    Log.d("Debug", "even name:"+eventViewModel.eventName.getValue());
         String eventName = LayoutFragmentArgs.fromBundle(requireArguments()).getEventName();
         String descript = LayoutFragmentArgs.fromBundle(requireArguments()).getDescript();
         String address = LayoutFragmentArgs.fromBundle(requireArguments()).getAddress();
@@ -50,10 +51,37 @@ public class LayoutFragment extends Fragment {
         String day = LayoutFragmentArgs.fromBundle(requireArguments()).getDay();
         String start = LayoutFragmentArgs.fromBundle(requireArguments()).getStart();
         String end = LayoutFragmentArgs.fromBundle(requireArguments()).getEnd();
+        int id = layoutOp1Args.fromBundle(requireArguments()).getId();
+        int pic = layoutOp1Args.fromBundle(requireArguments()).getPicture();
+        int song = layoutOp1Args.fromBundle(requireArguments()).getSong();
+
         eventNameView.setText(eventName);
         descriptView.setText(descript);
         addressView.setText(address);
         timeView.setText(year+"-"+month+"-"+ day+" "+start+":00-"+ end+":00");
+
+        if(pic == 1){
+            binding.imageView.setImageDrawable(getResources().getDrawable(R.drawable.summer));
+        } else if (pic == 2) {
+            binding.imageView.setImageDrawable(getResources().getDrawable(R.drawable.ghost));
+        } else if (pic == 3) {
+            binding.imageView.setImageDrawable(getResources().getDrawable(R.drawable.snowy));
+        }
+        else{
+            binding.imageView.setImageDrawable(getResources().getDrawable(R.drawable.cake));
+        }
+
+        if(song == 1){
+            MediaPlayer music = MediaPlayer.create(getActivity(), R.raw.birthday);
+            music.start();
+        } else if (song == 2) {
+            MediaPlayer music = MediaPlayer.create(getActivity(), R.raw.christmas);
+            music.start();
+        } else{
+            MediaPlayer music = MediaPlayer.create(getActivity(), R.raw.spooky);
+            music.start();
+        }
+
         /*
         eventNameView.setText(eventViewModel.eventName.getValue());
         descriptView.setText(eventViewModel.descriptionName.getValue());

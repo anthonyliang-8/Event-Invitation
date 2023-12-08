@@ -2,6 +2,7 @@
 buildscript {
     repositories {
         google()
+
     }
     dependencies {
         val nav_version = "2.7.4"
@@ -13,3 +14,4 @@ buildscript {
 plugins {
     id("com.android.application") version "8.1.2" apply false
 }
+

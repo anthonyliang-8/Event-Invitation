@@ -52,6 +52,7 @@
         android:layout_marginLeft="10dp"
         android:text="@string/detail"
         android:textAlignment="gravity"
+        android:fontFamily="@font/"
         android:textSize="24sp" />
     <TextView
         android:id="@+id/timeView"
@@ -69,9 +70,26 @@
         android:contentDescription="@string/description"
         android:src="@drawable/summer" />
 
-    <Button
-        android:id="@+id/calButton"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/addcalendar" />
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#284b63"
+            android:layout_weight="1"
+            android:text="@string/send" />
+
+        <Button
+            android:id="@+id/calButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#284b63"
+            android:text="@string/addcalendar" />
+
+    </LinearLayout>
+
 </LinearLayout>

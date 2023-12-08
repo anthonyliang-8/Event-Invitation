@@ -20,6 +20,11 @@ import androidx.navigation.Navigation;
 
 import com.example.event_invitation.databinding.FragmentInviteBinding;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+
 public class InviteFragment extends Fragment {
     private FragmentInviteBinding binding;
     private EventViewModel eventViewModel;
@@ -40,7 +45,8 @@ public class InviteFragment extends Fragment {
         Spinner daySpinner = binding.daySpinner;
         Spinner startSpinner = binding.starttimeSpinner;
         Spinner endSpinner = binding.endtimeSpinner;
-
+        // Get a new or existing ViewModel from the ViewModelProvider.
+        eventViewModel = new ViewModelProvider(this).get(EventViewModel.class);
         okButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -52,6 +58,34 @@ public class InviteFragment extends Fragment {
                 String day = daySpinner.getSelectedItem().toString();
                 String startHour = startSpinner.getSelectedItem().toString();
                 String endHour = endSpinner.getSelectedItem().toString();
+                int id = (int) Math.ceil(Math.random() * 10000);
+                //  int id = (int) Math.random();
+                Log.d( "Debug id", String.valueOf(id));
+                Event event = new Event(id, eventName, addressName, descriptName, year, month,day, startHour, endHour, 1, 1, 1);
+                eventViewModel.insert(event);
+                Log.d( "Debug event", event.toString());
+                // Assuming you have LiveData<List<String>> named liveDataList
+                List<Event> allevents = eventViewModel.getAllEvents().getValue();
+
+                Log.d( "Debug event", "got all events");
+                /*
+                for (Event element: allevents){
+                    if (element != null)
+                        Log.d("Debug each element above", element.getEventName());
+
+                }
+                 */
+                eventViewModel.getAllEvents().observe(requireActivity(), new Observer<List<Event>>() {
+                    @Override
+                    public void onChanged(List<Event> list) {
+                        // 'list' contains the updated list of strings
+                        // Iterate over the list
+                        for (Event element : list) {
+                            // Do something with each element
+                            Log.d("Debug each element", element.getEventName());
+                        } }
+
+                });
 
                 /*
                 eventViewModel.eventName.setValue(nameView.getText().toString());
@@ -66,8 +100,8 @@ public class InviteFragment extends Fragment {
                 Log.d("Debug invite", "even name:"+eventViewModel.eventName.getValue());
 
                  */
-                InviteFragmentDirections.ActionInviteFragmentToLayoutFragment action =
-                        InviteFragmentDirections.actionInviteFragmentToLayoutFragment(eventName,descriptName,addressName,year,month,day,startHour,endHour);
+                InviteFragmentDirections.ActionInviteFragmentToSelectorFragment action =
+                        InviteFragmentDirections.actionInviteFragmentToSelectorFragment(eventName,descriptName,addressName,year,month,day,startHour,endHour, 1, 1, id);
                 Navigation.findNavController(view).navigate(action);
 
             }
