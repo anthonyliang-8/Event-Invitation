@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:id="@+id/welcomeFragment"
+        android:title="@string/home"
+        android:icon="@drawable/home_icon"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/helpFragment"
+        android:title="@string/help"
+        android:icon="@drawable/help"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aboutFragment"
+        android:title="@string/help_about"
+        android:icon="@drawable/about_icon"
+        app:showAsAction="always">
+    </item>
+
+</menu>
