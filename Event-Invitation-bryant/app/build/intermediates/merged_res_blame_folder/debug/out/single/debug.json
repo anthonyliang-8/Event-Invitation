@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/font_opensans_bold.ttf.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/font/opensans_bold.ttf"
+    },
+    {
+        "merged": "com.example.event_invitation.app-merged_res-66:/layout_fragment_selector.xml.flat",
+        "source": "com.example.event_invitation.app-main-68:/layout/fragment_selector.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/drawable_ghost.jpg.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/drawable/ghost.jpg"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/layout_fragment_layout_op2.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/layout/fragment_layout_op2.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/xml_backup_rules.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/drawable_calendar_icon.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/drawable/calendar_icon.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/layout_recyclerview_item.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/layout/recyclerview_item.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/menu_menu_drawer.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/menu/menu_drawer.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/drawable_baseline_add_24.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/drawable/baseline_add_24.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/layout_fragment_selector.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/layout/fragment_selector.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/raw_christmas.mp3.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/raw/christmas.mp3"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/menu_menu_toolbar.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/menu/menu_toolbar.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/drawable_help_icon.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/drawable/help_icon.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/layout_fragment_layout.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/layout/fragment_layout.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/drawable_menu_settings.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/drawable/menu_settings.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/drawable_summer.PNG.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/drawable/summer.PNG"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/layout_activity_main.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/layout_fragment_layout_op3.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/layout/fragment_layout_op3.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/drawable_home_icon.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/drawable/home_icon.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/menu_menu_bottom.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/menu/menu_bottom.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/font_opensans_reg.ttf.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/font/opensans_reg.ttf"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/layout_fragment_help.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/layout/fragment_help.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/layout_fragment_layout_op1.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/layout/fragment_layout_op1.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/layout_fragment_calendar.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/layout/fragment_calendar.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/drawable_cake.jpg.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/drawable/cake.jpg"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/navigation_nav_graph.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/raw_birthday.mp3.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/raw/birthday.mp3"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/layout_fragment_invite.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/layout/fragment_invite.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/layout_fragment_welcome.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/layout/fragment_welcome.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/drawable_snowy.jpg.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/drawable/snowy.jpg"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/font_opensans_med.ttf.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/font/opensans_med.ttf"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-merged_res-66:/raw_spooky.mp3.flat",
+        "source": "/Users/anthony/.gradle/daemon/8.0/com.example.event_invitation.app-main-68:/raw/spooky.mp3"
+    }
+]
