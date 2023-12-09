@@ -34,8 +34,8 @@ android {
 
 dependencies {
     val nav_version = "2.5.2"
-    val roomVersion = "2.4.0-alpha03"   // use this version if on new mac chips
- //   val roomVersion = "2.3.0"
+ //   val roomVersion = "2.4.0-alpha03"   // use this version if on new mac chips
+    val roomVersion = "2.3.0"
     val appCompatVersion = "1.5.1"
     val lifecycleVersion = "2.3.1"
     val coreTestingVersion = "2.1.0"
