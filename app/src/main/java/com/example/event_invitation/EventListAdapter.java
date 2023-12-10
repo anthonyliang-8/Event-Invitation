@@ -22,9 +22,9 @@ public class EventListAdapter extends ListAdapter<Event, EventViewHolder> {
     public void onBindViewHolder(EventViewHolder holder, int position) {
         Event current = getItem(position);
         holder.setEvent(current);
-        String bindText = current.getEventName() + "  " + current.getYear() + "-"
-                + current.getMonth()+"-" + current.getDay()+ " "
-                + current.getStart()+"-" + current.getEnd();
+        String bindText = "Event name: " + current.getEventName() + "\n" + "Date: " + current.getYear() + "-"
+                + current.getMonth()+"-" + current.getDay()+ "\n"
+                + "Time: " + current.getStart()+"-" + current.getEnd() + "\n" + "Description: " + current.getEventDescript();
         holder.bind(bindText);
     }
 

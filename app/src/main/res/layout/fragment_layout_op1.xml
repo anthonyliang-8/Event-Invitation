@@ -45,11 +45,11 @@
 
     <TextView
         android:id="@+id/timePromptOp1"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="@string/timePrompt"
-        android:textSize="40dp"
         android:background="@color/offPink"
+        android:text="@string/timePrompt"
+        android:textSize="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -58,7 +58,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/event_time_txt"
-        android:textSize="40dp"
+        android:textSize="25dp"
         android:background="@color/lightPink"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,11 +67,12 @@
 
     <TextView
         android:id="@+id/addressPrompt"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="@string/locationPrompt"
         android:background="@color/lightPink"
-        android:textSize="40dp"
+        android:text="@string/locationPrompt"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/descPrompt"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timePromptOp1" />
 
@@ -81,7 +82,7 @@
         android:layout_height="wrap_content"
         android:background="@color/offPink"
         android:text="@string/eventLocation"
-        android:textSize="40dp"
+        android:textSize="25dp"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/addressPrompt"
@@ -94,7 +95,7 @@
         android:text="@string/descPrompt"
         android:background="@color/pink"
         android:textColor="@color/white"
-        android:textSize="40dp"
+        android:textSize="30dp"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -117,6 +118,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/addcalendar"
+        android:layout_marginTop="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

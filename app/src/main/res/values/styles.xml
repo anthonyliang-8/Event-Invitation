@@ -11,4 +11,8 @@
     <style name="OpenSansTextApperanceReg"><item name="android:fontFamily">@font/opensans_reg</item></style>
     <style name="OpenSansTextApperanceMed"><item name="android:fontFamily">@font/opensans_med</item></style>
     <style name="OpenSansTextApperanceBold"><item name="android:fontFamily">@font/opensans_bold</item></style>
+
+    <style name="BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="android:layout_height">48dp</item>
+    </style>
 </resources>

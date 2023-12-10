@@ -10,6 +10,11 @@
     <string name="layoutLabel">Invited</string>
     <string name="helpLabel">Help</string>
     <string name="calendarLabel">Calendar</string>
+    <string name="aboutLabel">About</string>
+    <string name="layoutOp1Label">Celebratory</string>
+    <string name="layoutOp2Label">Spooky</string>
+    <string name="layoutOp3Label">Snowy</string>
+    <string name="fragmentSelectLabel">Design</string>
 
     <string name="icon_temp_title">Temp Title</string>
     <string name="home">Home</string>
