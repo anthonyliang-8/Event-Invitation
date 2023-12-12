@@ -4,79 +4,86 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
     tools:context=".HelpFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_margin="10dp">
-
-        <TextView
-            android:id="@+id/introTxtView"
-            android:layout_width="wrap_content"
+        android:layout_height="620dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/opensans_bold"
-            android:layout_marginTop="15dp"
-            android:text="@string/intro"
-            android:textSize="60px" />
+            android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:fontFamily="@font/opensans_reg"
-            android:text="@string/tbd"
-            android:textSize="40px" />
+            <TextView
+                android:id="@+id/introTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/opensans_bold"
+                android:text="@string/intro"
+                android:textSize="60px" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:fontFamily="@font/opensans_bold"
-            android:textSize="60px"
-            android:text="@string/started"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/opensans_reg"
+                android:text="@string/introDesc"
+                android:textSize="40px" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:fontFamily="@font/opensans_reg"
-            android:textSize="40px"
-            android:text="@string/tbd"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:fontFamily="@font/opensans_bold"
-            android:textSize="60px"
-            android:text="@string/create"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/opensans_bold"
+                android:text="@string/started"
+                android:textSize="60px" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:fontFamily="@font/opensans_reg"
-            android:textSize="40px"
-            android:text="@string/tbd"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:fontFamily="@font/opensans_bold"
-            android:textSize="60px"
-            android:text="@string/integrate"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/opensans_reg"
+                android:text="@string/startedDesc"
+                android:textSize="40px" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:fontFamily="@font/opensans_reg"
-            android:textSize="40px"
-            android:text="@string/tbd"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/opensans_bold"
+                android:text="@string/create"
+                android:textSize="60px" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/opensans_reg"
+                android:text="@string/createDesc"
+                android:textSize="40px" />
 
-    </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/opensans_bold"
+                android:text="@string/integrate"
+                android:textSize="60px" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/opensans_reg"
+                android:text="@string/integrateDesc"
+                android:textSize="40px" />
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

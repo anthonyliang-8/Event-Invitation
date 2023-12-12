@@ -13,6 +13,7 @@ import android.widget.RadioGroup;
 
 import com.example.event_invitation.databinding.FragmentLayoutOp1Binding;
 import com.example.event_invitation.databinding.FragmentSelectorBinding;
+import com.google.android.material.snackbar.Snackbar;
 
 public class selectorFragment extends Fragment {
 
@@ -116,25 +117,28 @@ public class selectorFragment extends Fragment {
                     selectorFragmentDirections.ActionSelectorFragmentToLayoutFragment action =
                             selectorFragmentDirections.actionSelectorFragmentToLayoutFragment(eventName,descript,address,year,month,day,start,end, pic, song, id);
                     Navigation.findNavController(view).navigate(action);
+                    Snackbar.make(v, "Finished creating layout!", Snackbar.LENGTH_SHORT).show();
                 }
                 if(layout == 2){
                     selectorFragmentDirections.ActionSelectorFragmentToLayoutOp2 action =
                             selectorFragmentDirections.actionSelectorFragmentToLayoutOp2(eventName,descript,address,year,month,day,start,end, pic, song, id);
                     Navigation.findNavController(view).navigate(action);
+                    Snackbar.make(v, "Finished creating layout!", Snackbar.LENGTH_SHORT).show();
                 }
                 if(layout == 3){
                     selectorFragmentDirections.ActionSelectorFragmentToLayoutOp3 action =
                             selectorFragmentDirections.actionSelectorFragmentToLayoutOp3(eventName,descript,address,year,month,day,start,end, pic, song, id);
                     Navigation.findNavController(view).navigate(action);
+                    Snackbar.make(v, "Finished creating layout!", Snackbar.LENGTH_SHORT).show();
                 }
                 if(layout == 4){
                     selectorFragmentDirections.ActionSelectorFragmentToLayoutOp1 action =
                             selectorFragmentDirections.actionSelectorFragmentToLayoutOp1(eventName,descript,address,year,month,day,start,end, pic, song, id);
                     Navigation.findNavController(view).navigate(action);
+                    Snackbar.make(v, "Finished creating layout!", Snackbar.LENGTH_SHORT).show();
                 }
             }
         });
-
 
         return view;
     }

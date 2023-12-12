@@ -119,6 +119,7 @@
         android:layout_height="wrap_content"
         android:text="@string/addcalendar"
         android:layout_marginTop="15dp"
+        android:backgroundTint="@color/pink"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

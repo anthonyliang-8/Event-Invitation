@@ -144,6 +144,8 @@
     <string name="upcoming">Upcoming Events:</string>
     <string name="clear">Clear All</string>
 
+
+
     <string name="help_about">About</string>
     <string name="about_desc">
         This event invitation app was made during our Mobile App Programming I course
@@ -151,6 +153,9 @@
         an invitation. It allows tracks the upcoming events and the current invites you
         have made so far.
     </string>
+
+    <!-- Strings for TextViews -->
+
     <string name="about_dev">Developers</string>
     <string name="dev_desc"></string>
     <string name="about_v">Version</string>
@@ -159,7 +164,30 @@
     <string name="calfrag">Loading calendar...</string>
     <string name="intro">Introduction</string>
     <string name="started">Getting Started</string>
-    <string name="tbd">TBD</string>
     <string name="create">Creating an Invitation</string>
     <string name="integrate">Integration with Google Calendar</string>
+
+    <string name="introDesc">
+        This is a simple event invitation app that allows you to
+        create a customized invitation card varying based
+        on what you would like to choose for the picture, the layout of the card, and
+        the music you would like it to play.
+    </string>
+    <string name="startedDesc">
+        To get started, simply open the app (which you already have if you\'re seeing this
+        screen), and click on the "New Invite" button on the home screen.
+    </string>
+    <string name="createDesc">
+        To create an invitation, type in where the event will take place, when it will happen, and what time it
+        starts. Optionally, you can also tell the recipients what the event will be about in the description.
+        Once finished, click on the \"OK\" button. You will now be on the \"Design\" screen. Choose a preferred layout, any
+        of the listed pictures, and what song you would like the card to play. Once done, press finished and your
+        card will be generated.
+    </string>
+    <string name="integrateDesc">
+        To integrate this event with Google Calendar, press the \"Add To Calendar\" button. You will be directed to the
+        Google Calendar app, from which you will be prompted with a screen that will have the fields already filled
+        in with what you entered in the invitation app earlier. Press save, and your event will automatically
+        be saved.
+    </string>
 </resources>
